@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+
+        <!-- FAV ICON -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+        <!-- REMIX ICONS -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- CSS FILE -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mithun Sivapathasundram</title>
+    </head>
+    <body>
+
+        <!-- HEADER PROF -->
+        <header class="profile container">
+
+            <!-- Dark/Light Mode Button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data"> 
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile__name">Hello! I'm Mithun Sivapathasundram</h2>
+                    <h3 class="profile__profession">
+                        A Computer Science student at Toronto Metropolitan University with experience 
+                        <br>in many progamming languages in both frontend and backend development.
+                        <br>I am currently seeking 2024 Winter internships.
+                    </h3>
+
+                    <ul class="profile__social">
+                        <a href="mailto:msivapathasundram@torontomu.ca" target="_blank" class="profile__social-link"> 
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="https://github.com/mithun-s14" target="_blank" class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mithun-sivapathasundram/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/Mithun-Cv.pdf" class="button"> <!-- ADD RESUME -->
+                        Download Resume <i class="ri-download-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main class="main">
+            <section class="filters container">
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!-- PROJECTS TAB -->
+                    <div class="projects__content grid filters__active" data-content id ="projects">
+                        
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">JavaScript HTML CSS</span>
+                                    <h3 class="projects__title">Portfolio</h3>
+                                    <a href="" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">HTML CSS</span>
+                                    <h3 class="projects__title">Weather App</h3>
+                                    <a href="https://mithun-s14.github.io/Weather-App/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Python</span>
+                                    <h3 class="projects__title">NBA-Stats</h3>
+                                    <a href="https://github.com/mithun-s14/NBA-Stats" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Java Swing</span>
+                                    <h3 class="projects__title">Uni App Finder</h3>
+                                    <a href="https://github.com/itslinotlie/uni-app-finder" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- SKILLS TAB -->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Development</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                
+                                </div>
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Git/GitHub</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>   
+                                
+                                </div>                                
+                            </div>
+                        </div> 
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Development</h3>
+                            
+                            <div class="skills__box">
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Lisp</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Bash</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Smalltalk</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Elixir</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                
+                                </div>
+                                <div class="skills__group">
+                                    
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">C</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Haskell</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div> 
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Rust</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>  
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">SQL</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>  
+                                
+                                </div>                                
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer container">
+            <span class="footer__copy">
+                Built and Designed by Mithun Sivapathasundram
+            </span>
+        </footer>
+
+        <!-- SCROLL REVEAL LIBRARY SCRIPT -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
